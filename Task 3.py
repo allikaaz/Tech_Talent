@@ -1,0 +1,12 @@
+print("Welcome to AlliK Halal Restaurant!")
+print("I would like to take your order pls!")
+Starter = str(input("Enter your favourite starter meal pls?"))
+print("Your favourite starter is: " + Starter + " ! ")
+Main = str(input("Enter your favourite Main course meal pls?"))
+print("Your Main course is: " + Main + " ! ")
+Dessert = str(input("and lastly enter your dessert option pls?"))
+print("Your Dessert option is: " + Dessert + " ! ")
+Drink = str(input("Enter your favourite drink pls?"))
+print("Your favourite drink is: " + Drink + " ! ")
+FavMeal = Starter + Main + Dessert
+print("Your favourite meal is: " + FavMeal +" with a glass of " + Drink +"")
